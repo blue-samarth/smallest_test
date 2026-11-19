@@ -1,0 +1,20 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Run evidence. Each run writes a timestamped directory; results.txt and the
+# *_results.json files carry request ids and account balances.
+results.txt
+*_results.json
+report.html
+
+# Access-control observations, held for private disclosure rather than the
+# report body. Never commit this.
+security_private.json
